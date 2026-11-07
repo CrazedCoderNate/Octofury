@@ -8,7 +8,7 @@ Put this folder in `Interface/AddOns/` and make sure it's named `Octofury` (rena
 
 ## Use
 
-Bind `/dps` to a key with a macro and spam it in combat. Use `/dps sunder` to run the same rotation plus Sunder Armor whenever it's a DPS gain.
+Bind `/dps` to a key with a macro and spam it in combat. Use `/dps sunder` to run the same rotation plus Sunder Armor whenever it's a DPS gain (tuned for party of 5, best not to use this solo).
 
 | Priority | Notes |
 | --- | --- |
@@ -32,12 +32,6 @@ Bloodrage and Heroic Strike/Cleave are off the GCD and are used alongside the ab
 | `/dps hs <rage>` | Minimum rage to queue Heroic Strike/Cleave (default 40) |
 | `/dps cds smart\|always\|elite\|boss\|off` | When to use cooldowns (default `smart`) |
 | `/dps trinkets\|pummel\|shout\|sit\|slam\|debug [on\|off]` | Toggle a feature |
-| `/dps sitlog [reset]` | Show or clear the log of sitting to take crits |
-| `/dps procs [reset]` | Show or clear the Enrage / Blood Craze proc log |
 | `/dps status` | Show current settings and detected talents |
 
 `/octofury` works the same as `/dps`.
-
-## Optional
-
-If the [Fury](https://github.com/cubenicke/Fury) addon is installed, its `/fury aoe` setting also forces AoE mode here.
