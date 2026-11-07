@@ -1,0 +1,6 @@
+## Interface: 11200
+## Title: Octofury
+## Notes: One-button Berserker Stance DPS rotation tuned to Octowow's (Turtle) spell data.
+## SavedVariablesPerCharacter: Octofury_DB
+## OptionalDeps: Fury
+Octofury.lua
